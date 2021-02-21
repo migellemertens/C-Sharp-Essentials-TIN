@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toepassing 3.1", "Toepassing 3.1.csproj", "{B953647D-3E17-4A39-82E2-9C61135ADD58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B953647D-3E17-4A39-82E2-9C61135ADD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B953647D-3E17-4A39-82E2-9C61135ADD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B953647D-3E17-4A39-82E2-9C61135ADD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B953647D-3E17-4A39-82E2-9C61135ADD58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC07CD7A-70C3-4D9D-B52A-B91B89988D77}
+	EndGlobalSection
+EndGlobal

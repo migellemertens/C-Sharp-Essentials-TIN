@@ -1,0 +1,14 @@
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\bin\Debug\Toepassing 3.5.exe.config
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\bin\Debug\Toepassing 3.5.exe
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\bin\Debug\Toepassing 3.5.pdb
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\Toepassing 3.5_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\Toepassing 3.5_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\Toepassing 3.5.g.resources
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\Toepassing_3._5.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\Toepassing 3.5.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\Toepassing 3.5.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\Toepassing 3.5.exe
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h03\Toepassing 3.5\obj\Debug\Toepassing 3.5.pdb
