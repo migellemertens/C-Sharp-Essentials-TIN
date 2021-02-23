@@ -1,0 +1,16 @@
+﻿<Window x:Class="Toepassing_4._6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Toepassing_4._6"
+        mc:Ignorable="d"
+        Title="Toepassing 4.6" Height="145.44" Width="298.16">
+    <Grid>
+        <TextBox x:Name="fahrenheitTextBox" HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="calculateButton" Content="Convert to celcius" HorizontalAlignment="Left" Margin="145,10,0,0" VerticalAlignment="Top" Width="130" Height="51" FontWeight="Bold" Click="calculateButton_Click" />
+        <Label Content="Fahrenheit:" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="120" FontStyle="Italic"/>
+        <Label x:Name="celciusResultLabel" Content="" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="265"/>
+
+    </Grid>
+</Window>
