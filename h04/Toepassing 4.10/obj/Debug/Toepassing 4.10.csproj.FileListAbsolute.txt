@@ -12,3 +12,4 @@ C:\Users\migelle\Documents\Development\C# Essentials TIN\h04\Toepassing 4.10\obj
 C:\Users\migelle\Documents\Development\C# Essentials TIN\h04\Toepassing 4.10\obj\Debug\Toepassing 4.10.csproj.CoreCompileInputs.cache
 C:\Users\migelle\Documents\Development\C# Essentials TIN\h04\Toepassing 4.10\obj\Debug\Toepassing 4.10.exe
 C:\Users\migelle\Documents\Development\C# Essentials TIN\h04\Toepassing 4.10\obj\Debug\Toepassing 4.10.pdb
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h04\Toepassing 4.10\obj\Debug\Toepassing 4.10.csprojAssemblyReference.cache

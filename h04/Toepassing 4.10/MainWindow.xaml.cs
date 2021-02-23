@@ -31,10 +31,16 @@ namespace Toepassing_4._10
             int n = Convert.ToInt32(amountOfYearsTextBox.Text);
             double r = Convert.ToDouble(yearlyInterestTextBox.Text);
 
-            double finalBalance = b * (1 + (r / 100.0));
-            finalBalance = Math.Pow(finalBalance, n);
+            double finalBalance = 0;
+            
+            for(int i = n; i > 0; i--)
+            {
+                finalBalance = b * (1 + (r / 100.0));
+                b = finalBalance;
+            }
 
-            finalBalanceResultLabel.Content = $"{finalBalance:f}";
+
+            finalBalanceResultLabel.Content = $"Final Balance: {finalBalance:c}";
         }
     }
 }
