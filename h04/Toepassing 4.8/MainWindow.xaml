@@ -1,0 +1,20 @@
+﻿<Window x:Class="Toepassing_4._8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Toepassing_4._8"
+        mc:Ignorable="d"
+        Title="Toepassing 4.8" Height="186.48" Width="449.36">
+    <Grid>
+        <Label Content="Value R1:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+        <Label Content="Value R2:" HorizontalAlignment="Left" Margin="110,10,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBox x:Name="r1TextBox" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="59"/>
+        <TextBox x:Name="r2TextBox" HorizontalAlignment="Left" Height="23" Margin="110,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="59"/>
+        <Button x:Name="calculateSerialButton" Content="Calculate serial" HorizontalAlignment="Left" Margin="200,16,0,0" VerticalAlignment="Top" Width="105" Height="43" FontWeight="Bold" Click="calculateSerialButton_Click"/>
+        <Button x:Name="calculateParallelButton" Content="Calculate parallel" HorizontalAlignment="Left" Margin="310,16,0,0" VerticalAlignment="Top" Width="105" Height="43" FontWeight="Bold" Click="calculateParallelButton_Click"/>
+        <Label x:Name="resultSerialLabel" Content="" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="resultParallelLabel" Content="" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Width="159"/>
+
+    </Grid>
+</Window>
