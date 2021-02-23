@@ -1,0 +1,21 @@
+﻿<Window x:Class="Toepassing_4._10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Toepassing_4._10"
+        mc:Ignorable="d"
+        Title="Toepassing 4.10" Height="307.44" Width="313.28">
+    <Grid>
+        <Label Content="Starting balance:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBox x:Name="startingBalanceTextBox" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Amount of Years:" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBox x:Name="amountOfYearsTextBox" HorizontalAlignment="Left" Height="23" Margin="10,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Yearly Interest:" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBox x:Name="yearlyInterestTextBox" HorizontalAlignment="Left" Height="23" Margin="10,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="158,140,0,0" VerticalAlignment="Top" Width="120" Height="40" FontWeight="Bold" FontSize="22" Click="Button_Click"/>
+        <Label Content="Final balance:" HorizontalAlignment="Left" Margin="10,196,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+        <Label x:Name="finalBalanceResultLabel" Content="" HorizontalAlignment="Left" Margin="10,227,0,0" VerticalAlignment="Top" Width="268"/>
+
+    </Grid>
+</Window>
