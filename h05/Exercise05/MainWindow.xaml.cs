@@ -29,7 +29,26 @@ namespace Exercise05
                                    double width,
                                    double height)
         {
-            //TODO
+            Polygon triangle = new Polygon()
+            {
+                Stroke = brushToUse,
+                StrokeThickness = 2,
+                Fill = new SolidColorBrush(Colors.LightSeaGreen),
+                //HorizontalAlignment = HorizontalAlignment.Left,
+                //VerticalAlignment = VerticalAlignment.Center
+            };
+
+            Point point1 = new Point(xPlace, yPlace);
+            Point point2 = new Point(xPlace, (yPlace + height));
+            Point point3 = new Point((xPlace + width), (yPlace + height));
+
+            PointCollection triangleCollection = new PointCollection();
+            triangleCollection.Add(point1);
+            triangleCollection.Add(point2);
+            triangleCollection.Add(point3);
+            triangle.Points = triangleCollection;
+
+            drawingArea.Children.Add(triangle);
         }
 
 

@@ -15,6 +15,20 @@ namespace Exercise06
             InitializeComponent();
         }
 
+        private void drawButton_Click(object sender, RoutedEventArgs e)
+        {
+            SolidColorBrush brushToUse = new SolidColorBrush(Colors.Black);
+
+            DrawStreet(paperCanvas, brushToUse, 10, 20, 40, 50);
+        }
+
+        private void DrawStreet(Canvas drawingArea, SolidColorBrush brushToUse, double topRoofX, double topRoofY, double width, double height)
+        {
+            DrawHouse(drawingArea, brushToUse, topRoofX, topRoofY, width, height);
+            DrawHouse(drawingArea, brushToUse, topRoofX + (width + 20), topRoofY, width, height);
+            DrawHouse(drawingArea, brushToUse, topRoofX + (width * 2 + 40), topRoofY, width, height);
+            DrawHouse(drawingArea, brushToUse, topRoofX + (width * 3 + 60), topRoofY, width, height);
+        }
         private void DrawHouse(Canvas drawingArea,
                                SolidColorBrush brushToUse,
                                double topRoofX,
@@ -65,5 +79,8 @@ namespace Exercise06
             rectangle.Stroke = brushToUse;
             drawingArea.Children.Add(rectangle);
         }
+
+
+
     }
 }
