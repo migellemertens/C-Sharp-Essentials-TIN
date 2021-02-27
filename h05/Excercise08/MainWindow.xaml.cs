@@ -24,5 +24,18 @@ namespace Excercise08
         {
             InitializeComponent();
         }
+
+        private void convertButton_Click(object sender, RoutedEventArgs e)
+        {
+            double dollar = Convert.ToDouble(amountOfDollarTextBox.Text);
+            double euro = CalculateEuroEquivalent(dollar);
+
+            resultLabel.Content = $"{dollar} $ = {euro:c}";
+        }
+
+        private double CalculateEuroEquivalent(double dollar)
+        {
+            return dollar * 0.83;
+        }
     }
 }

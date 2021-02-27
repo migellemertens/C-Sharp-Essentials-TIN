@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Excercise08"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Exc 08" Height="162" Width="284.48">
     <Grid>
-        
+        <Label Content="Amount of dollar:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBox x:Name="amountOfDollarTextBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="convertButton" Content="Convert to euro" HorizontalAlignment="Left" Margin="160,41,0,0" VerticalAlignment="Top" Width="100" Height="23" Click="convertButton_Click"/>
+        <Label x:Name="resultLabel" Content="" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="250"/>
+
     </Grid>
 </Window>
