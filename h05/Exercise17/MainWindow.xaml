@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exercise17"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Exercise 17" Height="300.24" Width="377.36">
     <Grid>
-        
+        <Label Content="Hours:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="57"/>
+        <Label Content="Minutes:" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="57"/>
+        <Label Content="Seconds:" HorizontalAlignment="Left" Margin="10,102,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="hoursTextBox" HorizontalAlignment="Left" Height="23" Margin="72,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="minutesTextBox" HorizontalAlignment="Left" Height="23" Margin="72,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="57"/>
+        <TextBox x:Name="secondsTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="57" Margin="72,106,0,0"/>
+        <Button x:Name="calculateButton" Content="Calculate Difference" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Width="162" Height="38" FontSize="16" Click="calculateButton_Click"/>
+        <Label Content="Difference between times:" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Width="155"/>
+        <Label x:Name="resultLabel" Content="" HorizontalAlignment="Left" Margin="10,233,0,0" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Hours:" HorizontalAlignment="Left" Margin="181,10,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="57"/>
+        <Label Content="Minutes:" HorizontalAlignment="Left" Margin="181,56,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="57"/>
+        <Label Content="Seconds:" HorizontalAlignment="Left" Margin="181,102,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right"/>
+        <TextBox x:Name="hours2TextBox" HorizontalAlignment="Left" Height="23" Margin="243,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="minutes2TextBox" HorizontalAlignment="Left" Height="23" Margin="243,60,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="seconds2TextBox" HorizontalAlignment="Left" Height="23" Margin="243,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
