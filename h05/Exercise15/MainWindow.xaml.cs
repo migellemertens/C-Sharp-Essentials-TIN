@@ -27,11 +27,18 @@ namespace Exercise15
 
         private void convertButton_Click(object sender, RoutedEventArgs e)
         {
-            // TODO: read input from secondsTextBox
+            int totalAmountOfSeconds = Convert.ToInt32(secondsTextBox.Text);
 
-            // TODO: convert with one method
+            ConvertSecondsToHoursMinutesSeconds(totalAmountOfSeconds, out int hours, out int minutes, out int seconds);
 
-            // TODO: show output in messagebox
+            MessageBox.Show($"{hours}:{minutes}:{seconds}");
+        }
+
+        private void ConvertSecondsToHoursMinutesSeconds(int totalAmountOfSeconds, out int hours, out int minutes, out int seconds)
+        {
+            hours = totalAmountOfSeconds / 3600;
+            minutes = (totalAmountOfSeconds % 3600) / 60;
+            seconds = totalAmountOfSeconds % 60;
         }
     }
 }

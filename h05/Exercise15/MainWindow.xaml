@@ -11,9 +11,8 @@
     		Text="Seconden:" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="23" Margin="83,19,0,0"
     		x:Name="secondsTextBox" VerticalAlignment="Top" Width="120"/>
-        <Button Content="U:M:S" HorizontalAlignment="Left" Margin="83,64,0,0"
-    		VerticalAlignment="Top" Width="120"
-    		x:Name="convertButton" />
+        <Button x:Name="convertButton" Content="U:M:S" HorizontalAlignment="Left" Margin="83,55,0,0" VerticalAlignment="Top" Width="120" Click="convertButton_Click"/>
+
 
     </Grid>
 </Window>
