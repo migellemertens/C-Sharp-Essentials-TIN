@@ -1,0 +1,18 @@
+﻿<Window x:Class="Exercise18.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise18"
+        mc:Ignorable="d"
+        Title="Exercise 18" Height="195.527" Width="429.792">
+    <Grid>
+        <Label Content="Amount of seconds 1:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Amount of seconds 2:" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="seconds1TextBox" HorizontalAlignment="Left" Height="23" Margin="151,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="seconds2TextBox" HorizontalAlignment="Left" Height="23" Margin="151,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Button x:Name="calculateDifferenceButton" Content="Calculate difference" HorizontalAlignment="Left" Margin="275,54,0,0" VerticalAlignment="Top" Width="117" Height="23" Click="Button_Click"/>
+        <Label x:Name="resultLabel" Content="" HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top" Width="231"/>
+
+    </Grid>
+</Window>
