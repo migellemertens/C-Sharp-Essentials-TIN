@@ -1,0 +1,15 @@
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\bin\Debug\Test - Pass object.exe.config
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\bin\Debug\Test - Pass object.exe
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\bin\Debug\Test - Pass object.pdb
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\Test - Pass object.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\Test - Pass object_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\Test - Pass object_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\Test - Pass object.g.resources
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\Test___Pass_object.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\Test - Pass object.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\Test - Pass object.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\Test - Pass object.exe
+C:\Users\migelle\Documents\Development\C# Essentials TIN\Dev\Test - Pass object\obj\Debug\Test - Pass object.pdb
