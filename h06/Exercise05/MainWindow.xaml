@@ -1,0 +1,22 @@
+﻿<Window x:Class="Exercise05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise05"
+        mc:Ignorable="d"
+        Title="Exercise 05" Height="450" Width="800" Initialized="Window_Initialized">
+    <Grid>
+        <Label Content="Choose min depth:" HorizontalAlignment="Left" Margin="21,19,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Choose max depth:" HorizontalAlignment="Left" Margin="21,114,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Slider x:Name="minDepthSlider" HorizontalAlignment="Left" Margin="207,27,0,0" VerticalAlignment="Top" Width="500" ValueChanged="minDepthSlider_ValueChanged"/>
+        <Slider x:Name="maxDepthSlider" HorizontalAlignment="Left" Margin="207,123,0,0" VerticalAlignment="Top" Width="500" ValueChanged="maxDepthSlider_ValueChanged"/>
+        <Label x:Name="shallowMinLabel" Content="" HorizontalAlignment="Left" Margin="201,57,0,0" VerticalAlignment="Top" FontSize="14" Width="50"/>
+        <Label x:Name="shallowMaxLabel" Content="" HorizontalAlignment="Left" Margin="676,57,0,0" VerticalAlignment="Top" FontSize="14" Width="50"/>
+        <Label x:Name="deepMinLabel" Content="" HorizontalAlignment="Left" Margin="201,156,0,0" VerticalAlignment="Top" FontSize="14" Width="50"/>
+        <Label x:Name="deepMaxLabel" Content="" HorizontalAlignment="Left" Margin="676,156,0,0" VerticalAlignment="Top" FontSize="14" Width="50"/>
+        <Label x:Name="chosenMinDepth" Content="" HorizontalAlignment="Left" Margin="21,57,0,0" VerticalAlignment="Top" FontSize="14" Width="50"/>
+        <Label x:Name="chosenMaxDepth" Content="" HorizontalAlignment="Left" Margin="21,156,0,0" VerticalAlignment="Top" FontSize="14" Width="50"/>
+
+    </Grid>
+</Window>

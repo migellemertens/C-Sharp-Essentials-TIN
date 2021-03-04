@@ -1,0 +1,15 @@
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\bin\Debug\Exercise05.exe.config
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\bin\Debug\Exercise05.exe
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\bin\Debug\Exercise05.pdb
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\Exercise05.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\Exercise05_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\Exercise05_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\Exercise05.g.resources
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\Exercise05.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\Exercise05.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\Exercise05.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\Exercise05.exe
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise05\obj\Debug\Exercise05.pdb
