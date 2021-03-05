@@ -12,3 +12,4 @@ C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise06\obj\Debu
 C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise06\obj\Debug\Exercise06.csproj.CoreCompileInputs.cache
 C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise06\obj\Debug\Exercise06.exe
 C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise06\obj\Debug\Exercise06.pdb
+C:\Users\migelle\Documents\Development\C# Essentials TIN\h06\Exercise06\obj\Debug\Exercise06.csprojAssemblyReference.cache

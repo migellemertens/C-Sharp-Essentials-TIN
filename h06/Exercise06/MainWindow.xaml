@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exercise06"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Exercise 06" Height="350" Width="661.64">
     <Grid>
-
+        <Canvas x:Name="paperCanvas" HorizontalAlignment="Left" Height="269" Margin="19,26,0,0" VerticalAlignment="Top" Width="600" Background="#FFD6D6D6"/>
+        <Label x:Name="secondsLabel" Content="" HorizontalAlignment="Left" Margin="19,0,0,0" VerticalAlignment="Top" Width="48"/>
     </Grid>
 </Window>
