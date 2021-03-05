@@ -17,6 +17,7 @@
         <Label x:Name="deepMaxLabel" Content="" HorizontalAlignment="Left" Margin="676,156,0,0" VerticalAlignment="Top" FontSize="14" Width="50"/>
         <Label x:Name="chosenMinDepth" Content="" HorizontalAlignment="Left" Margin="21,57,0,0" VerticalAlignment="Top" FontSize="14" Width="50"/>
         <Label x:Name="chosenMaxDepth" Content="" HorizontalAlignment="Left" Margin="21,156,0,0" VerticalAlignment="Top" FontSize="14" Width="50"/>
+        <Canvas x:Name="paperCanvas" HorizontalAlignment="Left" Height="250" Margin="21,156,0,0" VerticalAlignment="Top" Width="250" Background="#FFEAEAEA"/>
 
     </Grid>
 </Window>
