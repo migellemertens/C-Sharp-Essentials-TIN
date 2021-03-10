@@ -1,0 +1,17 @@
+﻿<Window x:Class="Exercise02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exercise02"
+        mc:Ignorable="d"
+        Title="Exercise 02" Height="450" Width="800">
+    <Grid>
+        <Slider x:Name="number1Slider" HorizontalAlignment="Left" Margin="26,25,0,0" VerticalAlignment="Top" Width="400"/>
+        <Slider x:Name="number2Slider" HorizontalAlignment="Left" Margin="26,96,0,0" VerticalAlignment="Top" Width="400"/>
+        <Slider x:Name="number3Slider" HorizontalAlignment="Left" Margin="26,170,0,0" VerticalAlignment="Top" Width="400"/>
+        <Button x:Name="orderNumbersButton" Content="Order from large to small" HorizontalAlignment="Left" Margin="26,237,0,0" VerticalAlignment="Top" Width="200" Height="40" FontWeight="Bold" FontSize="16" Click="orderNumbersButton_Click"/>
+        <Label x:Name="resultLabel" Content="" HorizontalAlignment="Left" Margin="26,304,0,0" VerticalAlignment="Top" FontSize="16" Width="400"/>
+
+    </Grid>
+</Window>
