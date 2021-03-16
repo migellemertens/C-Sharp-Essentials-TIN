@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exercise07"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Calculator" Height="341.04" Width="257.88">
     <Grid>
-       
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Height="48" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="230" FontSize="36" Background="Gainsboro" HorizontalContentAlignment="Right" FontWeight="Bold"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="70,69,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="129,69,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="190,69,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="OperatorButton_Click"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="70,129,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="129,129,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="190,129,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="OperatorButton_Click"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="10,189,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="70,189,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="129,189,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="190,189,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="OperatorButton_Click"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" Width="50" Height="50" FontWeight="Bold" FontSize="36" Click="NumberButton_Click"/>
+        <Button x:Name="clearButton" Content="CLEAR" HorizontalAlignment="Left" Margin="129,250,0,0" VerticalAlignment="Top" Width="111" Height="50" FontWeight="Bold" FontSize="33" Click="clearButton_Click"/>
+
     </Grid>
 </Window>

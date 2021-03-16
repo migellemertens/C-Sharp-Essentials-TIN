@@ -1,0 +1,30 @@
+C:\devtest\DTDemo\bin\Debug\DTDemo.exe.config
+C:\devtest\DTDemo\bin\Debug\DTDemo.exe
+C:\devtest\DTDemo\bin\Debug\DTDemo.pdb
+C:\devtest\DTDemo\obj\Debug\DTDemo.csprojAssemblyReference.cache
+C:\devtest\DTDemo\obj\Debug\MainWindow.g.cs
+C:\devtest\DTDemo\obj\Debug\App.g.cs
+C:\devtest\DTDemo\obj\Debug\DTDemo_MarkupCompile.cache
+C:\devtest\DTDemo\obj\Debug\DTDemo_MarkupCompile.lref
+C:\devtest\DTDemo\obj\Debug\MainWindow.baml
+C:\devtest\DTDemo\obj\Debug\DTDemo.g.resources
+C:\devtest\DTDemo\obj\Debug\DTDemo.Properties.Resources.resources
+C:\devtest\DTDemo\obj\Debug\DTDemo.csproj.GenerateResource.cache
+C:\devtest\DTDemo\obj\Debug\DTDemo.csproj.CoreCompileInputs.cache
+C:\devtest\DTDemo\obj\Debug\DTDemo.exe
+C:\devtest\DTDemo\obj\Debug\DTDemo.pdb
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\bin\Debug\DTDemo.exe.config
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\bin\Debug\DTDemo.exe
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\bin\Debug\DTDemo.pdb
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\DTDemo.csprojAssemblyReference.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\MainWindow.g.cs
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\App.g.cs
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\DTDemo_MarkupCompile.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\DTDemo_MarkupCompile.lref
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\MainWindow.baml
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\DTDemo.g.resources
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\DTDemo.Properties.Resources.resources
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\DTDemo.csproj.GenerateResource.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\DTDemo.csproj.CoreCompileInputs.cache
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\DTDemo.exe
+C:\Users\migelle\Documents\Development\C# Essentials TIN\DTDemo\obj\Debug\DTDemo.pdb
