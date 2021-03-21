@@ -24,5 +24,31 @@ namespace Exercise07
         {
             InitializeComponent();
         }
+
+        private void tekenButton_Click(object sender, RoutedEventArgs e)
+        {
+            int aantal = Convert.ToInt32(inputTextBox.Text);
+            outputTextBlock.Text = "";
+
+            for (int rij = 1; rij <= aantal; rij++)
+            {
+                outputTextBlock.Text += "\t";
+                outputTextBlock.Text += Convert.ToString(rij);
+            }
+
+            outputTextBlock.Text += "\n";
+            outputTextBlock.Text += "\n";
+
+            for (int rij = 1; rij <= aantal; rij++)
+            {
+                outputTextBlock.Text += Convert.ToString(rij);
+                for (int kolom = 1; kolom <= aantal; kolom++)
+                {
+                    outputTextBlock.Text += "\t";
+                    outputTextBlock.Text += Convert.ToString(rij * kolom);
+                }
+                outputTextBlock.Text += "\n";
+            }
+        }
     }
 }

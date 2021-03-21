@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
- 
+        <Button Name="randomNumber1Button" Content="Generator 1" HorizontalAlignment="Left" Margin="75,76,0,0" VerticalAlignment="Top" Width="75" Click="randomNumber1Button_Click"/>
+        <Button Name="randomNumber2Button" Content="Generator 2" HorizontalAlignment="Left" Margin="184,76,0,0" VerticalAlignment="Top" Width="75" Click="randomNumber2Button_Click"/>
+        <Label Name="randomNumber1Label" Content="" HorizontalAlignment="Left" Margin="75,109,0,0" VerticalAlignment="Top"/>
+        <Label Name="randomNumber2Label" Content="" HorizontalAlignment="Left" Margin="184,109,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

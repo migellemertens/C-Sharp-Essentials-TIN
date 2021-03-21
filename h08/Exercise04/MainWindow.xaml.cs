@@ -20,9 +20,32 @@ namespace Exercise04
     /// </summary>
     public partial class MainWindow : Window
     {
+        private SolidColorBrush brush = new SolidColorBrush(Colors.Black);
         public MainWindow()
         {
             InitializeComponent();
+            DrawRectangle();
+        }
+
+        private void DrawRectangle()
+        {
+            for (int rij = 1; rij <= 6; rij++)
+            {
+                for (int kolom = 1; kolom <= rij; kolom++)
+                {
+                    Rectangle rect = new Rectangle
+                    {
+                        Stroke = brush,
+                        Margin = new Thickness(kolom * 25, rij * 25, 0, 0),
+                        Width = 20,
+                        Height = 20
+                    };
+                    
+                    paperCanvas.Children.Add(rect);
+
+                }
+            }
+
         }
     }
 }

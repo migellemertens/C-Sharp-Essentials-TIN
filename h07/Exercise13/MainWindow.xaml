@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:Exercise13"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+
     <Grid>
-        
+        <Label Name="pricelabel" Content="Netto prijs:" HorizontalAlignment="Left" Margin="88,55,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="netPriceTextbox" HorizontalAlignment="Left" Height="23" Margin="168,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Name="loweredTariffCheckBox" Content="Verlaagd tarief" HorizontalAlignment="Left" Margin="168,95,0,0" VerticalAlignment="Top"/>
+        <Label Name="btwLabel" Content="BTW:" HorizontalAlignment="Left" Margin="110,128,0,0" VerticalAlignment="Top"/>
+        <Label Name="totalLabel" Content="Totaal:" HorizontalAlignment="Left" Margin="110,170,0,0" VerticalAlignment="Top"/>
+        <TextBox IsEnabled="False" Name="btwTextBox" HorizontalAlignment="Left" Height="23" Margin="168,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox IsEnabled="False" Name="totalTextBox" HorizontalAlignment="Left" Height="23" Margin="168,174,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="calculateButton" Content="Bereken" HorizontalAlignment="Left" Margin="213,214,0,0" VerticalAlignment="Top" Width="75" Click="calculateButton_Click"/>
+
     </Grid>
 </Window>
